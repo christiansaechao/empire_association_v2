@@ -1,0 +1,8 @@
+.menu-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #a28d5b;
+  position: relative;
+}

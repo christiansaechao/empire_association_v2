@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+.nav-container {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 20%;
+  background: #221f1e;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  padding: 10px 20px;
+  border-bottom: 5px solid #a28d5b;
+  justify-content: space-between;
+}
+
+.link,
+a:visited {
+  text-decoration: none;
+  color: #e0c37e;
+}
+
+.logo {
+  width: 20%;
+  gap: 15px;
+  justify-content: flex-start;
+
+  .casino-name {
+    text-align: left;
+    color: #e4e2db;
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.links-container {
+  list-style: none;
+  width: 40%;
+  gap: 40px;
+  justify-content: space-between;
+
+  .link {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+
+    .link-styles,
+    a:visited {
+      text-decoration: none;
+      color: #e0c37e;
+    }
+
+    &:hover {
+      border-bottom: 2px solid #e0c37e;
+    }
+  }
+}
+
+.operational-hours {
+  font-size: 0.7rem;
+  color: #e0c37e;
+
+  .hours {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #e0c37e;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+  }
+}

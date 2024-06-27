@@ -1,0 +1,49 @@
+.promo-container {
+  background: #e4e3db;
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+
+    .promo-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-height: 500px;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      img {
+        max-height: 300px;
+        object-fit: cover;
+      }
+
+      .info {
+        box-sizing: border-box;
+        text-align: left;
+        background: white;
+        height: 100px;
+        width: 100%;
+        padding: 20px 30px;
+
+        .days {
+          font-size: 0.95rem;
+          color: #a28d5b;
+        }
+
+        .title {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

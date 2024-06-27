@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.banner-container {
+  background: #e4e3db;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px 0px;
+  position: relative;
+
+  .overlay {
+    position: absolute;
+    opacity: 0.05;
+    height: 100%;
+    width: 100%;
+    background: url(https://i.imgur.com/pvsOfam.jpg) no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+
+  h1,
+  h4 {
+    color: black;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-style: italics;
+  }
+
+  h4 {
+    padding-top: 10px;
+  }
+}

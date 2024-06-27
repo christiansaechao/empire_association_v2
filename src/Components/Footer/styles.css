@@ -1,0 +1,13 @@
+.footer-container {
+  font-size: 0.8rem;
+  background: #221f1e;
+  color: #e0c37e;
+  line-height: 30px;
+  padding: 20px 0px;
+
+  .telephone,
+  .gov-link {
+    text-decoration: none;
+    color: #e4e3db;
+  }
+}
