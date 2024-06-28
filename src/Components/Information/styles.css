@@ -1,3 +1,32 @@
+@media (max-width: 600px) {
+  .main-info-container {
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .info-container {
+      flex-direction: column; 
+    }
+
+  .map {
+      border-right: none !important; 
+      border-bottom: 2px solid #a28d5b;
+      padding-bottom: 30px !important; 
+      
+      iframe {
+        width: 100%;
+        border: none;
+      }
+    }
+
+    .info-section {
+      padding: 0px 5px; 
+    }
+  }
+
 .main-info-container {
   background: #e4e3db;
   padding: 40px 0px;

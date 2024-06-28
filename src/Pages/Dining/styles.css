@@ -1,8 +1,24 @@
+@media (max-width: 600px){
+  .menu-container {
+    height: 100%;
+    width: 100%;
+    overflow: visible; 
+
+    .image {
+      transform: rotate(90deg);
+      width: 700px !important;
+      height: 600px !important;
+      object-fit: cover !important; 
+      object-position: center !important;
+      pointer-events: none; 
+    }
+  }
+}
+
 .menu-container {
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 5px solid #a28d5b;
-  position: relative;
 }

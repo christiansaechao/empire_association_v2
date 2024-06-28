@@ -1,3 +1,52 @@
+@media (max-width: 600px) {
+
+  .promo-container {
+    background: #e4e3db;
+    box-sizing: border-box;
+
+    .img-banners {
+      width: 100%;
+    }
+
+    .cards-container {
+      flex-direction: column;
+      .promo-card {
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+        border: 1px solid black;
+        border-radius: 5px; 
+  
+        &:hover {
+          transform: scale(1.02);
+        }
+  
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+  
+        .info {
+          box-sizing: border-box;
+          text-align: left;
+          background: white;
+          height: 100px;
+          width: 100%;
+          padding: 20px 30px;
+  
+          .days {
+            font-size: 0.95rem;
+            color: #a28d5b;
+          }
+  
+          .title {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
 .promo-container {
   background: #e4e3db;
 

@@ -12,7 +12,7 @@ const Footer = () => {
             1-800-GAMBLER
           </a>{" "}
           or visit{" "}
-          <a href="" className="gov-link">
+          <a href="www.problemgambling.ca.gov" className="gov-link">
             www.problemgambling.ca.gov
           </a>
         </div>

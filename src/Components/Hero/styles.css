@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap");
 
+
+@media (max-width: 600px) {
+    .tag {
+      width: 95%;
+      left: 0 !important; 
+      bottom: 0 !important;
+      border: 1px solid #a28d5b;
+      border-radius: 5px;
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: flex-start;
+
+      .title {
+        font-size: 2rem;
+        font-family: "Playwrite MX", cursive;
+      }
+    }
+  }
+
 .hero-container {
   margin: 0 auto;
   width: 100%;

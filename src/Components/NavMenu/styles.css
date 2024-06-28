@@ -1,15 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 
+@media (max-width: 600px) {
+  .nav-container {
+    height: 110px;
+    overflow: hidden; 
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-container.active {
+    height: 300px;
+    overflow: visible !important; 
+  }
+
+  .nav-container, .links-container {
+    flex-direction: column;
+  }
+
+  .links-container {
+    margin: 0px !important; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0;
+    gap: 10px !important; 
+    transition: all 0.3s ease-in-out;
+
+    .link {
+      padding: 5px 20px !important;
+    }
+  }
+
+  .hamburger-menu {
+    color: white; 
+    display: block !important;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    padding: 5px 10px;
+  }
+}
+
 .nav-container {
   box-sizing: border-box;
   max-width: 100%;
-  height: 20%;
   background: #221f1e;
   font-family: "Archivo Black", sans-serif;
   font-style: normal;
   padding: 10px 20px;
   border-bottom: 5px solid #a28d5b;
   justify-content: space-between;
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 .link,

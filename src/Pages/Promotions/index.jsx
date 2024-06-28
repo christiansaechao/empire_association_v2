@@ -30,10 +30,10 @@ const Promotions = () => {
           );
         })}
       </div>
-      <img src="https://i.imgur.com/7eAlhyY.jpg" alt="july-promo" />
-      <img src="https://i.imgur.com/IOypsNV.jpg" alt="promo-1" />
-      <img src="https://i.imgur.com/yFAOCeL.jpg" alt="promo-4" />
-      <img src="https://i.imgur.com/6dyjU2G.jpg" alt="highroller" />
+      <img className="img-banners" src="https://i.imgur.com/7eAlhyY.jpg" alt="july-promo" />
+      <img className="img-banners" src="https://i.imgur.com/IOypsNV.jpg" alt="promo-1" />
+      <img className="img-banners" src="https://i.imgur.com/yFAOCeL.jpg" alt="promo-4" />
+      <img className="img-banners" src="https://i.imgur.com/6dyjU2G.jpg" alt="highroller" />
     </div>
   );
 };
